@@ -4,6 +4,7 @@ const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
 const https = require("https");
+require('dotenv').config();
 
 app = express();
 
@@ -15,6 +16,7 @@ app.get("/",function(req,res)
 {
     res.sendFile(__dirname+"/signup.html");
 });
+
 
 app.post("/",function(req,res)
 {
@@ -34,10 +36,11 @@ app.post("/",function(req,res)
         ]
     };
     const jsonData = JSON.stringify(data);
+    const apiKey = process.env.MAILCHIMP_API_KEY;
     const url = "https://us21.api.mailchimp.com/3.0/lists/9ecdcef861";
     const options = {
         method: "POST",
-        auth:"kshubham767:bca78bd5c27a58afe61c8e36672cc6d7-us21"
+        auth:"kshubham767:"+apiKey
     }
 
 
