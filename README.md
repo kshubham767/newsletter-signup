@@ -14,7 +14,7 @@ To enhance the newsletter signup process, we have seamlessly integrated MailChim
 
 ## Getting Started
 
-To access our web app, simply visit [https://newsletter-signup-3z2h.onrender.com](https://newsletter-signup-3z2h.onrender.com). Follow the easy signup process to start receiving our newsletters and stay informed!
+To access our web app, simply visit [https://newsletter-signup-l3ox.onrender.com](https://newsletter-signup-l3ox.onrender.com). Follow the easy signup process to start receiving our newsletters and stay informed!
 
 ## Installation
 
